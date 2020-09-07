@@ -10,7 +10,7 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  const apiKey = "cc65d87afabccabcd3c47633ef7d504d";
+  const apiKey = "myapikey";
   const queryCity = req.body.cityName;
   const units = "metric";
 
